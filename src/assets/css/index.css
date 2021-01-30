@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: SourceHanSansSC-Normal, SourceHanSansSC;
+}
+
+a {
+	text-decoration: none;
+}
+/*图标样式*/
+.icon-square{
+    position: relative;
+    display: block;
+    width:22px;
+    height: 22px;
+    background-color: white;
+	
+}
+.icon-square .square1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:14px;
+    height: 14px;
+    background-color: #2E76FF;
+}
+.icon-square .square2{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width:8px;
+    height: 8px;
+    background-color: #2E76FF;
+}
+.icon-more{
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: #CCCCCC;
+}
+.icon-more span{
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    display: block;
+    width:6px;
+    height: 6px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari and Chrome */
+}
+svg{
+    width: 20px;
+    height: 20px;
+    fill: #2E76FF;
+}
+.banner{
+	    position: relative;
+	    width: 100%;
+	    height: 300px;
+	    background-color: #00F7DE;
+		background-image: url('../images/banner.png');
+		background-repeat: no-repeat;
+		background-size:cover;
+		-moz-background-size:cover;
+	}
+
+.content{
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 200px;
+}
+.theme{
+  display: flex;
+  height: 47px;
+  align-items: center;
+  color: #202227;
+}
+.theme .theme-detail{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.content{
+  height: auto;
+}
+ ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+
+}

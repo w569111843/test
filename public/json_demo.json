@@ -1,0 +1,59 @@
+{
+    "msg": "请求成功",
+    "code": 200,
+    "data": {
+        "currPage": "1",
+        "totalPages": "1",
+        "totalRecords": "4",
+        "dataMap": [
+            {
+                "id": 15,
+                "docType": "grade",
+                "docName": "工业互联网项目计划 V1.0_20210128135943.docx",
+                "docUrl": "http://8.131.74.190:28683/doc/工业互联网项目计划 V1.0_20210128135943.docx",
+                "remark": null,
+                "status": 1,
+                "createBy": "",
+                "createTime": null,
+                "updateBy": "",
+                "updateTime": "2021-01-28 13:59:43"
+            },
+            {
+                "id": 13,
+                "docType": "standard",
+                "docName": "vue_20210128135908.pdf",
+                "docUrl": "http://8.131.74.190:28683/doc/vue_20210128135908.pdf",
+                "remark": null,
+                "status": 1,
+                "createBy": "",
+                "createTime": null,
+                "updateBy": "",
+                "updateTime": "2021-01-28 13:59:08"
+            },
+            {
+                "id": 12,
+                "docType": "standard",
+                "docName": "WechatIMG42_20210128135745.jpeg",
+                "docUrl": "http://8.131.74.190:28683/doc/WechatIMG42_20210128135745.jpeg",
+                "remark": null,
+                "status": 1,
+                "createBy": "",
+                "createTime": null,
+                "updateBy": "",
+                "updateTime": "2021-01-28 13:57:46"
+            },
+            {
+                "id": 11,
+                "docType": "grade",
+                "docName": "WechatIMG41_20210128105914.png",
+                "docUrl": "http://8.131.74.190:28683/doc/WechatIMG41_20210128105914.png",
+                "remark": null,
+                "status": 1,
+                "createBy": "",
+                "createTime": null,
+                "updateBy": "",
+                "updateTime": "2021-01-28 10:59:15"
+            }
+        ]
+    }
+}

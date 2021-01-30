@@ -9,6 +9,7 @@
     text-align: center;
     color: #272727;
     font-size: 16px;
+    cursor: pointer;
 }
 .list-children-active{
     background: #edf5ff;

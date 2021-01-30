@@ -109,7 +109,7 @@
     </div>
 </template>
 <script>
-import Theme from "../theme/index";
+import Theme from "../../../components/theme/index";
 import moment from "moment";
 export default {
     data() {

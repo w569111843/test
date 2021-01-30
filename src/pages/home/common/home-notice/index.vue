@@ -79,7 +79,7 @@
 </template>
 
 <script>
-import Theme from "../theme/index";
+import Theme from "../../../components/theme/index";
 export default {
     components: {
         Theme,

@@ -1,6 +1,6 @@
 <template>
     <div class="service-agency">
-        <Theme msg="评估服务机构" url="" />
+        <Theme msg="评估服务机构" url="/serviceAgency" />
         <div class="agency-details">
             <!-- <table>
                 <tr>
@@ -14,7 +14,7 @@
                     <td class="t3">hhh</td>
                 </tr>
             </table> -->
-            <el-table :data="tableData" stripe height="260">
+            <el-table :data="tableData" height="260">
                 <el-table-column
                     prop="orgName"
                     label="机构名称"
@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import Theme from "../theme/index";
+import Theme from "../../../components/theme/index";
 export default {
     data() {
         return {
@@ -91,34 +91,37 @@ export default {
 }
 </style>
 <style>
-.el-table td,
-.el-table th.is-leaf {
+.agency-details .el-table td,
+.agency-details .el-table th.is-leaf {
     border-bottom: none !important;
 }
 
-.el-table--border::after,
-.el-table--group::after,
-.el-table::before {
+.agency-details .el-table--border::after,
+.agency-details .el-table--group::after,
+.agency-details .el-table::before {
     background: #f9f9f9;
 }
-.el-table {
+.agency-details .el-table {
     background: #f9f9f9;
 }
 .el-table th,
-.el-table tr {
+.agency-detail .el-table tr {
     background: #f9f9f9;
 }
 
-.el-table td,
-.el-table th {
+.agency-details .el-table td,
+.agency-details .el-table th {
     padding: 7px 0;
 }
-
-.el-table {
+.agency-details .el-table th,
+.agency-details .el-table tr {
+    background: #f9f9f9;
+}
+.agency-details .el-table {
     color: #6a6a6a;
 }
 
-.el-table thead {
+.agency-details .el-table thead {
     color: #6a6a6a;
 }
 </style>

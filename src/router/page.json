@@ -13,11 +13,11 @@
     },
     {
         "name": "评估服务机构",
-        "path": ""
+        "path": "/serviceAgency"
     },
     {
         "name": "资料下载",
-        "path": ""
+        "path": "/downloadCenter"
     },
     {
         "name": "问题解答",

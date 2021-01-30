@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import Theme from "../theme/index";
+import Theme from "../../../components/theme/index";
 export default {
     name: "downloadfiles",
     components: {
@@ -38,7 +38,6 @@ export default {
     },
     methods: {
         toDownload(url) {
-            console.log(url);
             window.open(url, "_blank");
         },
         onLoad() {
